@@ -250,6 +250,13 @@ section {
   flex: 1 1 41rem;
 }
 
+/* #aboutUsImg{
+  background-image: url("./images/about-image.jpg");
+  background-repeat: no-repeat ;
+  height: 30rem;
+  background-size: cover;
+} */
+
 .home-about .image img {
   width: 100%;
 }

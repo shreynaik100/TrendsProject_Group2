@@ -1,4 +1,5 @@
 import {BrowserRouter as Router, Link } from 'react-router-dom'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import PageRoutes from './PageRoutes'
 
@@ -11,6 +12,7 @@ export default function Page(){
                 </header>
                 
                 <PageRoutes />
+                <Footer/>
             </div>
         </Router>
     )

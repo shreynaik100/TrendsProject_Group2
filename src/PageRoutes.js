@@ -1,4 +1,5 @@
 import {Routes, Route} from 'react-router-dom';
+import AboutUs from './components/AboutUs';
 import Home from './components/Home';
 
 
@@ -9,6 +10,7 @@ export default function PageRoutes(){
     return (
         <Routes>
             <Route path='/' element= {<Home />} />    
+            <Route path='/about' element= {<AboutUs />} />    
             <Route path='/*' element={<NotFound/>} />     
         </Routes>
         
