@@ -1,4 +1,7 @@
 
+import { BrowserRouter as Router, Link } from 'react-router-dom'
+
+
 const Footer = () => {
     return (
         <div>
@@ -8,39 +11,39 @@ const Footer = () => {
 
                     <div class="box">
                         <h3>quick links</h3>
-                        <a href="index.html"> <i class="fas fa-angle-right"></i> home</a>
-                        <a href="about.html"> <i class="fas fa-angle-right"></i> about</a>
-                        <a href="package.html"> <i class="fas fa-angle-right"></i> package</a>
-                        <a href="book.html"> <i class="fas fa-angle-right"></i> book</a>
+                        <Link to="/"><i class="fas fa-angle-right"></i> home</Link>
+                        <Link to="/about"><i class="fas fa-angle-right"></i> about</Link>
+                        <Link to="/package"><i class="fas fa-angle-right"></i> package</Link>
+                        <Link to="/book"><i class="fas fa-angle-right"></i> book</Link>
                     </div>
 
                     <div class="box">
                         <h3>extra links</h3>
-                        <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
-                        <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
-                        <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
-                        <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
+                        <Link to="/"> <i class="fas fa-angle-right"></i> ask questions</Link>
+                        <Link to="/"> <i class="fas fa-angle-right"></i> about us</Link>
+                        <Link to="/"> <i class="fas fa-angle-right"></i> privacy policy</Link>
+                        <Link to="/"> <i class="fas fa-angle-right"></i> terms of use</Link>
                     </div>
 
                     <div class="box">
                         <h3>contact info</h3>
-                        <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
-                        <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-                        <a href="#"> <i class="fas fa-envelope"></i> group1@gmail.com </a>
-                        <a href="#"> <i class="fas fa-map"></i> Mumbai, India - 400080 </a>
+                        <Link to="/"> <i class="fas fa-phone"></i> +123-456-7890 </Link>
+                        <Link to="/"> <i class="fas fa-phone"></i> +111-222-3333 </Link>
+                        <Link to="/"> <i class="fas fa-envelope"></i> group2@gmail.com </Link>
+                        <Link to="/"> <i class="fas fa-map"></i> Mumbai, India - 400080 </Link>
                     </div>
 
                     <div class="box">
                         <h3>follow us</h3>
-                        <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-                        <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-                        <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-                        <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                        <Link to="/"><i class="fab fa-facebook-f"></i> facebook </Link>
+                        <Link to="/"><i class="fab fa-twitter"></i> twitter </Link>
+                        <Link to="/"><i class="fab fa-instagram"></i> instagram </Link>
+                        <Link to="/"><i class="fab fa-linkedin"></i> linkedin </Link>
                     </div>
 
                 </div>
 
-                <div class="credit"> created by <span>Group1</span> | all rights reserved! </div>
+                <div class="credit"> created by <span>Group 2</span> | all rights reserved! </div>
 
             </section>
         </div>

@@ -141,7 +141,7 @@ section {
 }
 
 .home .hero-img {
-  background: url(./images/home.jpg) no-repeat;
+  background: url(/public/images/home.jpg) no-repeat;
   text-align: center;
   padding: 2rem;
   display: grid;
@@ -210,7 +210,7 @@ section {
 }
 
 .services-heading {
-  background: url(./images/service.jpg) no-repeat;
+  background: url(/public/images/service.jpg) no-repeat;
 }
 
 .services .box-container {
@@ -251,7 +251,7 @@ section {
 }
 
 /* #aboutUsImg{
-  background-image: url("./images/about-image.jpg");
+  background-image: url("/public/images/about-image.jpg");
   background-repeat: no-repeat ;
   height: 30rem;
   background-size: cover;
@@ -356,7 +356,7 @@ section {
 }
 
 .about-heading {
-  background: url(./images/about.jpg) no-repeat;
+  background: url(/public/images/about.jpg) no-repeat;
 }
 
 .about {
@@ -418,7 +418,7 @@ section {
 }
 
 .reviews-heading {
-  background: url(./images/review.jpg) no-repeat;
+  background: url(/public/images/review.jpg) no-repeat;
 }
 
 .reviews .testimonial {
@@ -466,7 +466,7 @@ section {
 }
 
 .packages-heading {
-  background: url(./images/package.jpg) no-repeat;
+  background: url(/public/images/package.jpg) no-repeat;
 }
 
 .packages .box-container {
@@ -525,7 +525,7 @@ section {
 }
 
 .booking-heading {
-  background: url(./images/book.jpg) no-repeat;
+  background: url(/public/images/book.jpg) no-repeat;
 }
 
 .booking .book-form {
@@ -578,7 +578,7 @@ textarea {
 }
 
 .contact-heading {
-  background: url(./images/contact.jpg) no-repeat;
+  background: url(/public/images/contact.jpg) no-repeat;
 }
 
 .contactus .contact-form {
@@ -630,8 +630,93 @@ textarea {
   margin-top: 2rem;
 }
 
+.login-register-heading {
+  background: url(/public/images/login.jpg) no-repeat;
+}
+
+.login-register .login-register-form {
+  padding: 2rem;
+  background: var(--light-bg);
+}
+
+.login-register .login-register-form .login {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+
+.login-register .login-register-form .login .inputBox input,
+textarea {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  font-size: 1.6rem;
+  color: var(--light-black);
+  text-transform: none;
+  margin-top: 1.5rem;
+  border: var(--border);
+}
+
+.login-register .login-register-form .login .inputBox input:focus {
+  background: var(--black);
+  color: var(--white);
+}
+
+.login-register .login-register-form .login .inputBox input:focus::placeholder {
+  color: var(--light-white);
+}
+
+.login-register .login-register-form .login .inputBox textarea:focus {
+  background: var(--black);
+  color: var(--white);
+}
+
+.login-register .login-register-form .login .inputBox textarea:focus::placeholder {
+  color: var(--light-white);
+}
+
+.login-register .login-register-form .login .inputBox span {
+  font-size: 1.5rem;
+  color: var(--light-black);
+}
+
+.login-register .login-register-form .btn {
+  margin-top: 2rem;
+}
+
+.login-register .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+
+.login-register .box-container .box:hover .image img {
+  transform: scale(1.1);
+}
+
+.login-register .box-container .box .image {
+  height: 25rem;
+  overflow: hidden;
+}
+
+.login-register .box-container .box .content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.login-register .box-container .box .content h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.login-register .box-container .box .content p {
+  font-size: 1.5rem;
+  color: var(--light-black);
+  line-height: 2;
+  padding: 1rem 0;
+}
+
 .footer {
-  background: url(./images/footer-bg.jpg) no-repeat;
+  background: url(/public/images/footer-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   padding-bottom:2rem;
