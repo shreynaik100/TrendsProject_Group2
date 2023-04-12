@@ -3,6 +3,7 @@ import AboutUs from './components/AboutUs';
 import Home from './components/Home';
 import Book from './components/Book';
 import Login from './components/Login';
+import Review from './components/Review';
 
 const NotFound = () => <h2>This Path is not available</h2>
 
@@ -12,7 +13,9 @@ export default function PageRoutes(){
             <Route path='/' element= {<Home />} />    
             <Route path='/about' element= {<AboutUs />} />  
             <Route path='/book' element= {<Book />} />
-            <Route path='/login' element= {<Login />} />        
+            <Route path='/login' element= {<Login />} />   
+            <Route path='/review' element= {<Review />} />        
+    
             <Route path='/*' element={<NotFound/>} />     
         </Routes>
         
