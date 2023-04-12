@@ -1,4 +1,3 @@
-import { BrowserRouter as Router, Link } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
 
 const Header = () => {
@@ -15,6 +14,7 @@ const Header = () => {
                 <NavLink to="/service">Service</NavLink>
                 <NavLink to="/review">Review</NavLink>
                 <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/login">Login</NavLink>
             </nav>
 
             <div class="mobnav">
@@ -42,6 +42,9 @@ const Header = () => {
                         </NavLink></li>
                         <li><NavLink to="/contact" >
                             Contact
+                        </NavLink></li>
+                        <li><NavLink to="/login" >
+                            Login
                         </NavLink></li>
                     </ul>
                 </nav>
