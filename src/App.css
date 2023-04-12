@@ -487,7 +487,9 @@ section {
 .packages .box-container .box:nth-child(3),
 .packages .box-container .box:nth-child(4),
 .packages .box-container .box:nth-child(5),
-.packages .box-container .box:nth-child(6) {
+.packages .box-container .box:nth-child(6),
+.packages  .box-container .box:nth-child(7),
+.packages  .box-container .box:nth-child(8){
   display: inline-block;
 }
 

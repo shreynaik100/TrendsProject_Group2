@@ -102,6 +102,38 @@ const Package = () => {
                         </div>
                     </div>
 
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/package-7.jpg" alt="" />
+                        </div>
+                        <div class="content">
+                            <h3>Jammu & Kashmir</h3>
+                            <p>Known as ‘Paradise on Earth’, Jammu and Kashmir is one of India's most favoured tourist destinations.
+                                The state is popular for its picturesque beauty, the pashmina shawls and the many blue lakes that dot the Himalayan terrain here.
+                                The state is a religious amalgamation with natives practicing Islam, Buddhism, and Hinduism. There's naturally a lot of cultural diversity to be explored here.
+                                And don't forget the mouth-watering Kashmiri cuisine 'Wazwan'. For those of you planning to visit the Valley, here's a detailed travel guide of Jammu Kashmir to fill you up on all the details you need to know for your tourism here.
+                            </p>
+                            <a href="#" class="btn">book now</a>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image">
+                            <img src="images/package-8.jpg" alt="" />
+                        </div>
+                        <div class="content">
+                            <h3>Kerala</h3>
+                            <p>India’s millennia-old natural medicine, Ayurveda, is the guiding force in southern state Kerala’s famed health resorts.
+                                 To rejuvenate in luxurious surrounds, try 50-acre oasis Kairali Ayurvedic Health Resort’s authentic ayurvedic healing with aromatherapy, massage, essential oils and yoga.
+
+                                Named as one of the ten paradises of the world by National Geographic Traveler, Kerala is famous especially for its ecotourism initiatives and beautiful backwaters.
+                                Its unique culture and traditions, coupled with its varied demography, have made Kerala one of the most popular tourist destinations in the world.
+
+                            </p>
+                            <a href="#" class="btn">book now</a>
+                        </div>
+                    </div>
+
 
 
                 </div>
