@@ -20,7 +20,7 @@ const Review = () => {
                         delectable food, and exceptional tour leaders and other travellers? This trip was fantastic. Sharing her
                         home and culture with us was a fantastic experience provided by our guide. Although we were highly active
                         and covered a lot of distance, the trip was stress-free and perfect in every way.</p>
-                    <h3>Karan Kumar</h3>
+                    <h3>KaranKumar Brahmbhatt</h3>
                     <span>traveler</span>
                     <img src="images/review-1.png" alt="" />
 
