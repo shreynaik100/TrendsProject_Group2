@@ -6,6 +6,7 @@ import Package from './components/Package';
 import Service from './components/Service';
 import Login from './components/Login';
 import Review from './components/Review';
+import Contact from './components/Contact';
 
 const NotFound = () => <h2>This Path is not available</h2>
 
@@ -21,7 +22,8 @@ export default function PageRoutes(){
 
             <Route path='/book' element= {<Book />} />
             <Route path='/login' element= {<Login />} />   
-            <Route path='/review' element= {<Review />} />        
+            <Route path='/review' element= {<Review />} />  
+            <Route path='/contact' element= {<Contact />} />        
     
             <Route path='/*' element={<NotFound/>} />     
         </Routes>
