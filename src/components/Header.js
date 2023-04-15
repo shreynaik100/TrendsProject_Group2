@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <section class="header">
 
-            <a href="index.html" class="logo">Travel India</a>
+            <div class="logo">Travel India</div>
 
             <nav class="navbar">
                 <NavLink to="/" class="active">home</NavLink>
