@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -7,14 +7,14 @@ const Header = () => {
             <div class="logo">Travel India</div>
 
             <nav class="navbar">
-                <NavLink to="/" class="active">home</NavLink>
-                <NavLink to="/about">About</NavLink>
-                <NavLink to="/book">Book</NavLink>
-                <NavLink to="/package">Package</NavLink>
-                <NavLink to="/service">Service</NavLink>
-                <NavLink to="/review">Review</NavLink>
-                <NavLink to="/contact">Contact</NavLink>
-                <NavLink to="/login">Login</NavLink>
+                <Link to="/" class="active">home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/book">Book</Link>
+                <Link to="/package">Package</Link>
+                <Link to="/service">Service</Link>
+                <Link to="/review">Review</Link>
+                <Link to="/contact">Contact</Link>
+                <Link to="/login">Login</Link>
             </nav>
 
             <div class="mobnav">
@@ -22,30 +22,30 @@ const Header = () => {
                     <input type="checkbox" id="menuToggle" />
                     <label for="menuToggle" class="menu-icon"><i class="fa fa-bars"></i></label>
                     <ul>
-                        <li><NavLink to="/">
+                        <li><Link to="/">
                             Home
-                        </NavLink></li>
-                        <li><NavLink to="/about" >
+                        </Link></li>
+                        <li><Link to="/about" >
                             About
-                        </NavLink></li>
-                        <li><NavLink to="/book" >
+                        </Link></li>
+                        <li><Link to="/book" >
                             Book
-                        </NavLink></li>
-                        <li><NavLink to="/package" >
+                        </Link></li>
+                        <li><Link to="/package" >
                             Package
-                        </NavLink></li>
-                        <li><NavLink to="/service" >
+                        </Link></li>
+                        <li><Link to="/service" >
                             Service
-                        </NavLink></li>
-                        <li><NavLink to="/review" >
+                        </Link></li>
+                        <li><Link to="/review" >
                             Review
-                        </NavLink></li>
-                        <li><NavLink to="/contact" >
+                        </Link></li>
+                        <li><Link to="/contact" >
                             Contact
-                        </NavLink></li>
-                        <li><NavLink to="/login" >
+                        </Link></li>
+                        <li><Link to="/login" >
                             Login
-                        </NavLink></li>
+                        </Link></li>
                     </ul>
                 </nav>
             </div>
