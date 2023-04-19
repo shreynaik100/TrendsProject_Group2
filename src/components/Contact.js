@@ -1,3 +1,4 @@
+// Made by: Dwayne Gonsalves
 
 const Contact = () => {
     return (
