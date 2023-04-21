@@ -3,12 +3,9 @@
 const Review = () => {
     return (
         <div>
-
             <div class="heading reviews-heading">
                 <h1>reviews</h1>
             </div>
-
-
             <section class="reviews">
                 <h1 class="heading-title"> Customer reviews </h1>
                 <div class="testimonial">
@@ -24,8 +21,7 @@ const Review = () => {
                         and covered a lot of distance, the trip was stress-free and perfect in every way.</p>
                     <h3>KaranKumar Brahmbhatt</h3>
                     <span>traveler</span>
-                    <img src="images/review-1.png" alt="" />
-
+                    <img src="images/review-1.png" alt="review-1" />
                 </div>
                 <div class="testimonial">
                     <div class="stars">
@@ -39,7 +35,7 @@ const Review = () => {
                         enjoyable and I didn't have to worry about anything but have a great time.</p>
                     <h3>Dhwani Dedhia</h3>
                     <span>traveler</span>
-                    <img src="images/review-2.png" alt="" />
+                    <img src="images/review-2.png" alt="review-2" />
 
                 </div>
                 <div class="testimonial">
@@ -53,7 +49,7 @@ const Review = () => {
                         Highly recommend this trip!</p>
                     <h3>Shrey Naik</h3>
                     <span>traveler</span>
-                    <img src="images/review-3.png" alt="" />
+                    <img src="images/review-3.png" alt="review-3" />
                 </div>
                 <div class="testimonial">
                     <div class="stars">
@@ -68,7 +64,7 @@ const Review = () => {
                         authentic and delicious. Our guides were top notch, taking care of every possible need and then some.</p>
                     <h3>Dwayne Gonsalves</h3>
                     <span>traveler</span>
-                    <img src="images/review-4.png" alt="" />
+                    <img src="images/review-4.png" alt="review-4" />
                 </div>
             </section>
         </div>
