@@ -12,10 +12,7 @@ const AboutUs = () => {
             <section className="about">
 
                 <div className="image">
-                    {/* <div id="aboutUsImg">
-
-                    </div> */}
-                    <img src="../images/about-image.jpg" alt="about us image" />
+                    <img src="../images/about-image.jpg" alt="about" />
                 </div>
 
                 <div className="content">

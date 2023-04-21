@@ -1,20 +1,22 @@
-import { Link } from 'react-router-dom'
+import { Link,useLocation } from 'react-router-dom'
 
 const Header = () => {
+    const location = useLocation();
+
     return (
         <section class="header">
 
             <div class="logo">Travel India</div>
 
             <nav class="navbar">
-                <Link to="/" class="active">home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/book">Book</Link>
-                <Link to="/package">Package</Link>
-                <Link to="/service">Service</Link>
-                <Link to="/review">Review</Link>
-                <Link to="/contact">Contact</Link>
-                <Link to="/login">Login</Link>
+                <Link to="/" className={location.pathname === '/' ? 'active' : ''}>home</Link>
+                <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>About</Link>
+                <Link to="/book" className={location.pathname === '/book' ? 'active' : ''}>Book</Link>
+                <Link to="/package" className={location.pathname === '/package' ? 'active' : ''}>Package</Link>
+                <Link to="/service" className={location.pathname === '/service' ? 'active' : ''}>Service</Link>
+                <Link to="/review" className={location.pathname === '/review' ? 'active' : ''}>Review</Link>
+                <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link>
+                <Link to="/login" className={location.pathname === '/login' ? 'active' : ''}>Login</Link>
             </nav>
 
             <div class="mobnav">

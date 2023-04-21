@@ -1,7 +1,6 @@
-// Made by: Dhwani Dhedia
+// Made by: Dhwani Dedhia
 
 import { BrowserRouter as Router, Link } from 'react-router-dom'
-import { NavLink } from 'react-router-dom'
 
 const Home = () => {
     return (

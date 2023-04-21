@@ -1,4 +1,4 @@
-// Made by: Dhwani Dhedia
+// Made by: Dhwani Dedhia
 
 const Login = () => {
     return (
